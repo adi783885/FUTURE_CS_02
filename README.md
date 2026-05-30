@@ -1,28 +1,28 @@
 # Phishing Detection & Awareness
 
 ## 🎯 Objective
-To analyze live phishing email samples, identify underlying security risks, and evaluate baseline email authentication controls.
+To analyze real-world phishing emails, identify structural security flaws, and verify email authentication records.
 
 ## 🛠️ Tools Used
-* **Manual Email Inspection:** Utilizing email client utilities to safely extract raw text and transport metadata.
-* **Header & Transit Analysis:** Tracking delivery paths, routing hops, and evaluating domain security policy alignment.
-* **Visual Artifact Analysis:** Isolating malicious formatting anomalies, deceptive brand impersonation, and structural lures.
+* **Gmail Web Client:** For extracting raw email text and routing metadata via 'Show Original'.
+* **MXToolbox:** For analyzing email headers, tracking delivery hops, and checking security rules.
+* **Documentation & Storage:** Utilizing MS Word and GitHub to build the evidence repository.
 
 ## 🔍 Analysis Approach
-Each incoming threat profile was audited against standardized core indicators:
-* **Sender Domain Alignment:** Identifying contradictions between visible display names and actual routing infrastructure.
-* **Psychological Triggers:** Detecting artificial urgency, fear tactics, or unexpected financial baits designed to compromise decision-making.
-* **Hyperlink Obfuscation:** Unmasking tracking destinations hidden behind seemingly legitimate action buttons.
-* **Target Profiling:** Spotting generic placeholders and email handles used instead of formal recipient names.
-* **Policy Compliance:** Reviewing un-enforced domain configurations that allow malicious delivery.
+Each suspicious email sample was audited against key phishing indicators:
+* **Sender Domain Mismatch:** Display names mimicking trusted brands while hiding unrelated sender domains.
+* **Psychological Triggers:** Using artificial urgency and major financial baits to trick targets.
+* **Hidden Hyperlinks:** Obfuscating tracking or redirect links behind legitimate-looking buttons.
+* **Generic Targeting:** Addressing victims by generic placeholders or email handles instead of actual names.
+* **Domain Policy Exploitation:** Leveraging weak or un-enforced security policies to bypass default inbox filters.
 
 ## 📊 Risk Classification
-The evaluated campaigns were categorized as **HIGH RISK**, achieving a maximum risk matrix score of **10/10**. The determination is supported by clear intent to harvest sensitive inputs, combined with the discovery of shared backend server footprints indicating a singular, coordinated campaign.
+All analyzed email campaigns were scored **10/10 (High Risk)** due to clear fraud indicators. Tracking revealed shared backend server footprints and identical distribution logic, confirming a coordinated threat campaign.
 
 ## 🚀 Key Outcome
-This analysis demonstrates operational readiness in identifying modern social engineering vectors, tracing infrastructure origins, and establishing data-backed mitigation frameworks to protect enterprise environments.
+This analysis demonstrates hands-on proficiency in capturing live threat metrics, parsing technical email headers, and building actionable user-awareness guidelines to protect enterprise systems.
 
 ---
 ### 👨‍💻 Analyst Profile
 
-**Adithyan.V** | *Cybersecurity Analyst & Researcher*
+**Adithyan. V** | *Cybersecurity Analyst & Researcher*
