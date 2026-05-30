@@ -25,4 +25,4 @@ This analysis demonstrates operational readiness in identifying modern social en
 ---
 ### 👨‍💻 Analyst Profile
 
-**Adithyan. V** | *Cybersecurity Analyst & Researcher*
+**Adithyan.V** | *Cybersecurity Analyst & Researcher*
