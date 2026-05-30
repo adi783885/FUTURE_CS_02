@@ -24,6 +24,8 @@ This analysis demonstrates operational readiness in identifying modern social en
 
 ---
 ---
-### 👨‍💻 Analyst Profile
-
-**Adithyan. V** *Cybersecurity Researcher & Analyst* [FUTURE CS 02](https://github.com/adi783885/FUTURE_CS_02)
+---
+> ### 👤 Analyst Information
+> **Name:** Adithyan. V  
+> **Role:** Cybersecurity Analyst & Researcher  
+> **Project:** Phishing Detection & Awareness Analysis
