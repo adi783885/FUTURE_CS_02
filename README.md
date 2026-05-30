@@ -1,28 +1,26 @@
 # Phishing Detection & Awareness
 
 ## 🎯 Objective
-[cite_start]To analyze live phishing email samples, identify security risks, and execute baseline email authentication verifications[cite: 8, 9, 10].
+To analyze live phishing email samples, identify underlying security risks, and evaluate baseline email authentication controls.
 
 ## 🛠️ Tools Used
-* [cite_start]**Manual Email Inspection:** Extracting raw email text and headers via 'Show Original' utilities[cite: 15].
-* [cite_start]**Email Header Parsing:** Analyzing transit paths and tracking delivery security policies[cite: 15].
-* [cite_start]**Visual Content Analysis:** Identifying design anomalies, generic targets, and malicious lures[cite: 9, 54].
+* **Manual Email Inspection:** Utilizing email client utilities to safely extract raw text and transport metadata.
+* **Header & Transit Analysis:** Tracking delivery paths, routing hops, and evaluating domain security policy alignment.
+* **Visual Artifact Analysis:** Isolating malicious formatting anomalies, deceptive brand impersonation, and structural lures.
 
 ## 🔍 Analysis Approach
-[cite_start]Each suspicious email sample was examined against a strict checklist[cite: 137]:
-* [cite_start]Suspicious Sender Domains [cite: 137]
-* [cite_start]Artificial Urgency Tactics [cite: 53, 137]
-* [cite_start]Hidden or Mismatched Hyperlinks [cite: 137]
-* [cite_start]Unexpected Financial Lures [cite: 52, 137]
-* [cite_start]Generic Email Handle Greetings [cite: 54, 137]
-* [cite_start]Domain Security Failures (Un-enforced DMARC policies) [cite: 56, 137]
+Each incoming threat profile was audited against standardized core indicators:
+* **Sender Domain Alignment:** Identifying contradictions between visible display names and actual routing infrastructure.
+* **Psychological Triggers:** Detecting artificial urgency, fear tactics, or unexpected financial baits designed to compromise decision-making.
+* **Hyperlink Obfuscation:** Unmasking tracking destinations hidden behind seemingly legitimate action buttons.
+* **Target Profiling:** Spotting generic placeholders and email handles used instead of formal recipient names.
+* **Policy Compliance:** Reviewing un-enforced domain configurations that allow malicious delivery.
 
 ## 📊 Risk Classification
-[cite_start]All analyzed attack campaigns were classified as **HIGH RISK** (scoring a maximum **10/10** on the evaluation matrix) due to clear, multi-layered phishing indicators and shared backend deployment infrastructure[cite: 137, 146].
+The evaluated campaigns were categorized as **HIGH RISK**, achieving a maximum risk matrix score of **10/10**. The determination is supported by clear intent to harvest sensitive inputs, combined with the discovery of shared backend server footprints indicating a singular, coordinated campaign.
 
-## 🚀 Key Takeaways
-[cite_start]This analysis builds hands-on proficiency in infrastructure tracking, security risk scoring, and developing enterprise-grade user awareness training to stop active vector threats[cite: 12, 168].
+## 🚀 Key Outcome
+This analysis demonstrates operational readiness in identifying modern social engineering vectors, tracing infrastructure origins, and establishing data-backed mitigation frameworks to protect enterprise environments.
 
 ---
-👨‍💻 **Author** **Adithyan. [cite_start]V** [cite: 2]  
-*Cybersecurity Researcher & Analyst*
+👨‍💻 **Analyst Profile** **Adithyan. V** *Cybersecurity Analyst & Researcher*
