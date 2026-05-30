@@ -23,4 +23,6 @@ The evaluated campaigns were categorized as **HIGH RISK**, achieving a maximum r
 This analysis demonstrates operational readiness in identifying modern social engineering vectors, tracing infrastructure origins, and establishing data-backed mitigation frameworks to protect enterprise environments.
 
 ---
-👨‍💻 **Analyst Profile** **Adithyan. V** *Cybersecurity Analyst & Researcher*
+👨‍💻 **Analyst Profile**
+**Adithyan. V** 
+*Cybersecurity Analyst & Researcher*
